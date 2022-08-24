@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 16px;
+  background: white;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  width: 100%;
+  top: 0px;
+
+  div {
+    padding: 30px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+
+  .app_home:hover {
+    transition: 0.25s;
+    color: #0ca678;
+  }
+}
